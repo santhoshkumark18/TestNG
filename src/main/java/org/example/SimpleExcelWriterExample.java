@@ -43,5 +43,6 @@ public class SimpleExcelWriterExample {
         try (FileOutputStream outputStream = new FileOutputStream("JavaBooks.xlsx")) {
             workbook.write(outputStream);
         }
+        System.out.println("Hi Git Master");
     }
 }
