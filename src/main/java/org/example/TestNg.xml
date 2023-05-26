@@ -1,0 +1,16 @@
+<suite name="Suite" parallel="tests">
+    <parameter name="emailId" value="koushik350@gmail.com"></parameter>
+    <parameter name="pass" value="Pass123$"></parameter>
+    <test Thread-count="5" name="ChromeTest">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="org.example.TestPractice"/>
+        </classes>
+    </test>
+    <test Thread-count="5" name="FireFoxTest">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="org.example.TestPractice"/>
+        </classes>
+    </test>
+</suite>
