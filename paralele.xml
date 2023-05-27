@@ -1,0 +1,12 @@
+<suite name="Suite">
+    <test thread-count="-1" parallel="classes" name="letcode">
+        <classes>
+            <class name="org.practice.Edge"/>
+            <class name="org.practice.Google"/>
+            <class name="org.practice.Edge"/>
+            <class name="org.practice.Google"/>
+            <class name="org.practice.Edge"/>
+            <class name="org.practice.Google"/>
+        </classes>
+    </test>
+</suite>
