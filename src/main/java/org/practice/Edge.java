@@ -8,5 +8,6 @@ public class Edge {
     public void testOne() {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
+        driver.quit();
     }
 }
